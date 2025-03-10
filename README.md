@@ -14,3 +14,9 @@ This sandbox project serves as a personal workspace for:
 ## About RAGFlow
 
 [RAGFlow](https://github.com/infiniflow/ragflow) is an open-source tool designed for building and optimizing RAG applications. RAG enhances large language models by retrieving relevant information from external knowledge sources to improve response generation.
+
+## OpenAI API Compatible
+
+Generated through command:
+
+`uv run fastapi-codegen --input openai.yaml --output openai --output-model-type pydantic_v2.BaseModel`
